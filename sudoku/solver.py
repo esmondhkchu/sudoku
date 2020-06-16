@@ -24,6 +24,6 @@ def solver(board, verbose=True):
 
     else:
         if verbose:
-            print('No empty cell to solve, return original board_copy')
+            print('No empty cell to solve, return original board')
 
     return board_copy
