@@ -1,4 +1,4 @@
-# A Sudoku solver
+# A Sudoku Generator/Solver
 
 ## Demo
 ```python
