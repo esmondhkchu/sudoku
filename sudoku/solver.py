@@ -8,7 +8,10 @@ def solver(board, verbose=True):
 
     if len(empty):
         iter_ = 0
+        count = 0
         while True:
+            count += 1
+            print(count, end='\r')
             next_ava = check_next_ava(board_copy, empty[iter_])
             if next_ava != 0:
                 board_copy[empty[iter_][0], empty[iter_][1]] = next_ava
